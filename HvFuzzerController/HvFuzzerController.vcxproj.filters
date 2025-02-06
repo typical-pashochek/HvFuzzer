@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\HvFuzzerController">
+      <UniqueIdentifier>{e3dbee47-0238-45d8-bb2b-f120872018e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\HvFuzzerController">
+      <UniqueIdentifier>{9ae2dc64-4e9e-434f-814f-c72dd4ca7595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\common">
+      <UniqueIdentifier>{53a4036f-45bd-48ad-9018-888631a8cf95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\FuzzInputParser">
+      <UniqueIdentifier>{b6f0aabd-e86b-4eb6-9143-99321bc9fb3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\FuzzInputParser">
+      <UniqueIdentifier>{cf30a1c2-1808-4bb8-9e67-f76fc332ea8b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="HvFuzzerController\HvFuzzerController.cpp">
+      <Filter>Исходные файлы\HvFuzzerController</Filter>
+    </ClCompile>
+    <ClCompile Include="FuzzInputParser\FuzzInputParser.cpp">
+      <Filter>Исходные файлы\FuzzInputParser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HvFuzzerController\HvFuzzerController.h">
+      <Filter>Файлы заголовков\HvFuzzerController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\types.h">
+      <Filter>Файлы заголовков\common</Filter>
+    </ClInclude>
+    <ClInclude Include="FuzzInputParser\FuzzInputParser.h">
+      <Filter>Файлы заголовков\FuzzInputParser</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
